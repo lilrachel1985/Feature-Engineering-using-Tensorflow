@@ -1,1 +1,2 @@
 # Feature-Engineering-using-Tensorflow
+With Tensorflow Transform, you can preprocess data using the same code for both training a model and serving inferences in production. It provides several utility functions for common preprocessing tasks including creating features that require a full pass over the training dataset. The outputs are the transformed features and a TensorFlow graph which you can use for both training and serving. Using the same graph for both training and serving can prevent feature skew, since the same transformations are applied in both stages.
